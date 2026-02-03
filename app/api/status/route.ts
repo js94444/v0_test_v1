@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'; // 이 줄을 최상단에 추가하세요.
 import { type NextRequest, NextResponse } from "next/server"
 import { AzureSqlDB } from "@/lib/db/azure-sql"
 
